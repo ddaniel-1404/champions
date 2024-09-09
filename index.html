@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champions League</title>
+    <link rel="icon" href="icone.ico">  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CHAMPIONS LEAGUE</h1>
+        <small>Descubra as informações mais detalhadas dos times e jogadores da maior competição do mundo!</small>
+    </header>
+    <main>
+        <section>
+        <input type="text" placeholder="Time" 
+        id="campo-pesquisa">
+        <button onclick="search()">Pesquisar</button>
+        <div id="resultados"></div>
+        </section>
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>
+            <h6>Todas as informações são baseadas na temporada 2023-2024 da Europa.</h6></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
